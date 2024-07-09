@@ -47,3 +47,33 @@ const myFun = function() {
 
 
 console.log(typeof heros);
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) and Heap (Non Primitive) Memory in JS
+
+
+let myName = "TanayMukadam"
+let anotherName = myName
+anotherName ="Predator"
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "tanay@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
