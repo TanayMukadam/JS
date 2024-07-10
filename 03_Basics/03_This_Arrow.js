@@ -9,9 +9,9 @@ const user = {
 }
 
 
-// user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "sam"
+user.welcomeMessage()
 
 
 
@@ -19,29 +19,29 @@ const user = {
 
 
 
-// function one () {
+function one () {
 
-//     let username = "tanay"
-//     console.log(this.username);
-// }
-// one()
-
-
-// const one = () => {
-//     let username = "tanay"
-//     console.log(this);
-// }
-
-// one()
+    let username = "tanay"
+    console.log(this.username);
+}
+one()
 
 
-// () => {}    Arrow Function
+const one = () => {
+    let username = "tanay"
+    console.log(this);
+}
 
-// const addTwo = (num1, num2) => {
-//     return num1 + num2
-// }
+one()
 
-// const addTwo = (num1, num2) => num1 + num2
-// const addTwo = (num1, num2) => (num1 + num2)
+
+() => {}    Arrow Function
+
+const addTwo = (num1, num2) => {
+    return num1 + num2
+}
+
+const addTwo = (num1, num2) => num1 + num2
+const addTwo = (num1, num2) => (num1 + num2)
 
 
