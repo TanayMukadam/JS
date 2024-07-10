@@ -37,11 +37,47 @@ const user =
         email: "t@gmail.com"
     }
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+
+
+// +++++++++++++++++++ Objects Destructing and JSON Api ++++++++++++++++
+
+
+const course = {
+    coursname: "Js",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+
+const {courseInstructor: instructor} = course
+
+// console.log(instructor);
+
+
+////////////// API Concept //////////////////
+
+
+// {
+//     "name": "Tanay", 
+//     "courseName": "Js",
+//     "price": "free"
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
