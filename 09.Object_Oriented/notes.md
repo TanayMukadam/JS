@@ -20,7 +20,7 @@ Object Literal
 
 ## 4 keywords
 
-Abstraction 
-Encapsulation
-Inheritance
-Polymorphism
+- Abstraction 
+- Encapsulation
+- Inheritance
+- Polymorphism
